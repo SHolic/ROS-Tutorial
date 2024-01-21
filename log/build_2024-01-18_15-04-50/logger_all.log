@@ -1,0 +1,958 @@
+[0.470s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.471s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb4a87879d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb4a87879d0>>)
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.908s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/holic/dev_ws'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'ignore_ament_install'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extensions ['ros']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'ros'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extensions ['cmake', 'python']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'cmake'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'python'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extensions ['python_setup_py']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials) by extension 'python_setup_py'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'ros'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extensions ['cmake', 'python']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'cmake'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'python'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extensions ['python_setup_py']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/docs) by extension 'python_setup_py'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action) by extension 'ros'
+[0.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_action' with type 'ros.ament_python' and name 'learning_action'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action_cpp) by extension 'ignore'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action_cpp) by extension 'ignore_ament_install'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action_cpp) by extensions ['ros']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_action_cpp) by extension 'ros'
+[0.946s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_action_cpp' with type 'ros.ament_cmake' and name 'learning_action_cpp'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_cv) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_cv) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_cv) by extension 'ignore_ament_install'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_cv) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_cv) by extension 'ros'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_cv' with type 'ros.ament_python' and name 'learning_cv'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_gazebo) by extension 'ros'
+[0.950s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_gazebo' with type 'ros.ament_python' and name 'learning_gazebo'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_interface) by extension 'ros'
+[0.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_interface' with type 'ros.ament_cmake' and name 'learning_interface'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_launch) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_launch' with type 'ros.ament_python' and name 'learning_launch'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extension 'ignore_ament_install'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node) by extension 'ros'
+[0.954s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_node' with type 'ros.ament_python' and name 'learning_node'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node_cpp) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node_cpp) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node_cpp) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_node_cpp) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_node_cpp' with type 'ros.ament_cmake' and name 'learning_node_cpp'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter) by extension 'ros'
+[0.957s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_parameter' with type 'ros.ament_python' and name 'learning_parameter'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_parameter_cpp' with type 'ros.ament_cmake' and name 'learning_parameter_cpp'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_c) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_c) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_c) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_c) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_c) by extension 'ros'
+[0.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_pkg_c' with type 'ros.ament_cmake' and name 'learning_pkg_c'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_python) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_python) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_python) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_python) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_pkg_python) by extension 'ros'
+[0.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_pkg_python' with type 'ros.ament_python' and name 'learning_pkg_python'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_qos) by extension 'ros'
+[0.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_qos' with type 'ros.ament_python' and name 'learning_qos'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extension 'ignore_ament_install'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extensions ['ros']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service) by extension 'ros'
+[0.965s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_service' with type 'ros.ament_python' and name 'learning_service'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service_cpp) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service_cpp) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service_cpp) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_service_cpp) by extension 'ros'
+[0.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_service_cpp' with type 'ros.ament_cmake' and name 'learning_service_cpp'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extensions ['ros']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_tf) by extension 'ros'
+[0.968s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_tf' with type 'ros.ament_python' and name 'learning_tf'
+[0.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extension 'ignore'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extension 'ignore_ament_install'
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extensions ['ros']
+[0.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic) by extension 'ros'
+[0.970s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_topic' with type 'ros.ament_python' and name 'learning_topic'
+[0.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic_cpp) by extension 'ignore'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic_cpp) by extension 'ignore_ament_install'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic_cpp) by extensions ['ros']
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_topic_cpp) by extension 'ros'
+[0.972s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_topic_cpp' with type 'ros.ament_cmake' and name 'learning_topic_cpp'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extension 'ignore_ament_install'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extensions ['ros']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/learning_urdf) by extension 'ros'
+[0.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_21_tutorials/learning_urdf' with type 'ros.ament_python' and name 'learning_urdf'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extensions ['ignore', 'ignore_ament_install']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'ignore'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'ignore_ament_install'
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extensions ['ros']
+[0.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'ros'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extensions ['cmake', 'python']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'cmake'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'python'
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extensions ['python_setup_py']
+[0.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_21_tutorials/python) by extension 'python_setup_py'
+[0.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_target' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_clean_cache' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_clean_first' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'cmake_force_configure' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'ament_cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'catkin_cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'learning_cv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.155s] DEBUG:colcon.colcon_core.verb:Building package 'learning_cv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_cv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_cv', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_cv', 'symlink_install': False, 'test_result_base': None}
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.182s] Level 5:colcon.colcon_core.verb:set package 'learning_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.182s] DEBUG:colcon.colcon_core.verb:Building package 'learning_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_gazebo', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_target' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'learning_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.210s] DEBUG:colcon.colcon_core.verb:Building package 'learning_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_interface', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_interface', 'symlink_install': False, 'test_result_base': None}
+[1.233s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_target' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_clean_first' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'cmake_force_configure' from command line to 'False'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'ament_cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.234s] Level 5:colcon.colcon_core.verb:set package 'learning_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.234s] DEBUG:colcon.colcon_core.verb:Building package 'learning_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_launch', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_launch', 'symlink_install': False, 'test_result_base': None}
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.259s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.259s] DEBUG:colcon.colcon_core.verb:Building package 'learning_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_node', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_node', 'symlink_install': False, 'test_result_base': None}
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'cmake_args' from command line to 'None'
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'cmake_target' from command line to 'None'
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.286s] Level 5:colcon.colcon_core.verb:set package 'learning_node_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.286s] DEBUG:colcon.colcon_core.verb:Building package 'learning_node_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_node_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_node_cpp', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_node_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_target' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_clean_cache' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_clean_first' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'cmake_force_configure' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'ament_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'catkin_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.312s] DEBUG:colcon.colcon_core.verb:Building package 'learning_parameter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_parameter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_parameter', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter', 'symlink_install': False, 'test_result_base': None}
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'cmake_args' from command line to 'None'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'cmake_target' from command line to 'None'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.337s] Level 5:colcon.colcon_core.verb:set package 'learning_parameter_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.337s] DEBUG:colcon.colcon_core.verb:Building package 'learning_parameter_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_parameter_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_parameter_cpp', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.360s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_args' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_target' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_clean_cache' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_clean_first' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_force_configure' from command line to 'False'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'ament_cmake_args' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'catkin_cmake_args' from command line to 'None'
+[1.361s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.361s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_pkg_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_pkg_c', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_c', 'symlink_install': False, 'test_result_base': None}
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_args' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target' from command line to 'None'
+[1.383s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_cache' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_first' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_force_configure' from command line to 'False'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'ament_cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_cmake_args' from command line to 'None'
+[1.384s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.384s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_pkg_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_pkg_python', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_python', 'symlink_install': False, 'test_result_base': None}
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_args' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_target' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_clean_cache' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_clean_first' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'cmake_force_configure' from command line to 'False'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'ament_cmake_args' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'catkin_cmake_args' from command line to 'None'
+[1.419s] Level 5:colcon.colcon_core.verb:set package 'learning_qos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.419s] DEBUG:colcon.colcon_core.verb:Building package 'learning_qos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_qos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_qos', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_qos', 'symlink_install': False, 'test_result_base': None}
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_args' from command line to 'None'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_target' from command line to 'None'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_clean_first' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'cmake_force_configure' from command line to 'False'
+[1.460s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'ament_cmake_args' from command line to 'None'
+[1.461s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[1.461s] Level 5:colcon.colcon_core.verb:set package 'learning_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.461s] DEBUG:colcon.colcon_core.verb:Building package 'learning_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_tf', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_tf', 'symlink_install': False, 'test_result_base': None}
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'cmake_args' from command line to 'None'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'cmake_target' from command line to 'None'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.498s] Level 5:colcon.colcon_core.verb:set package 'learning_topic_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.498s] DEBUG:colcon.colcon_core.verb:Building package 'learning_topic_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_topic_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_topic_cpp', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_topic_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_args' from command line to 'None'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_target' from command line to 'None'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[1.534s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[1.535s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[1.535s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[1.535s] Level 5:colcon.colcon_core.verb:set package 'learning_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.535s] DEBUG:colcon.colcon_core.verb:Building package 'learning_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_urdf', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_urdf', 'symlink_install': False, 'test_result_base': None}
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_args' from command line to 'None'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_target' from command line to 'None'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_clean_cache' from command line to 'False'
+[1.557s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_clean_first' from command line to 'False'
+[1.558s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'cmake_force_configure' from command line to 'False'
+[1.558s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'ament_cmake_args' from command line to 'None'
+[1.558s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'catkin_cmake_args' from command line to 'None'
+[1.558s] Level 5:colcon.colcon_core.verb:set package 'learning_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.558s] DEBUG:colcon.colcon_core.verb:Building package 'learning_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_action', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_action', 'symlink_install': False, 'test_result_base': None}
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'cmake_args' from command line to 'None'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'cmake_target' from command line to 'None'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.579s] Level 5:colcon.colcon_core.verb:set package 'learning_action_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.580s] DEBUG:colcon.colcon_core.verb:Building package 'learning_action_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_action_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_action_cpp', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_action_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_args' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_target' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_clean_cache' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_clean_first' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'cmake_force_configure' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'ament_cmake_args' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'catkin_cmake_args' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'learning_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.603s] DEBUG:colcon.colcon_core.verb:Building package 'learning_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_service', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_service', 'symlink_install': False, 'test_result_base': None}
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'cmake_args' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'cmake_target' from command line to 'None'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.629s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.630s] Level 5:colcon.colcon_core.verb:set package 'learning_service_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.630s] DEBUG:colcon.colcon_core.verb:Building package 'learning_service_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_service_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_service_cpp', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_service_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_args' from command line to 'None'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_target' from command line to 'None'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_clean_first' from command line to 'False'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'cmake_force_configure' from command line to 'False'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'ament_cmake_args' from command line to 'None'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[1.653s] Level 5:colcon.colcon_core.verb:set package 'learning_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.653s] DEBUG:colcon.colcon_core.verb:Building package 'learning_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/holic/dev_ws/build/learning_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/holic/dev_ws/install/learning_topic', 'merge_install': False, 'path': '/home/holic/dev_ws/src/ros2_21_tutorials/learning_topic', 'symlink_install': False, 'test_result_base': None}
+[1.676s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[1.728s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_cv'
+[1.729s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_cv' with build type 'ament_python'
+[1.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_cv', 'ament_prefix_path')
+[1.779s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_cv/share/learning_cv/hook/ament_prefix_path.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_cv/share/learning_cv/hook/ament_prefix_path.sh'
+[1.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.536s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_cv'
+[2.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_cv': PYTHONPATH=/home/holic/dev_ws/build/learning_cv/prefix_override:/home/holic/dev_ws/install/learning_cv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_cv build --build-base /home/holic/dev_ws/build/learning_cv/build install --record /home/holic/dev_ws/build/learning_cv/install.log --single-version-externally-managed
+[4.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_cv' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_cv/prefix_override:/home/holic/dev_ws/install/learning_cv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_cv build --build-base /home/holic/dev_ws/build/learning_cv/build install --record /home/holic/dev_ws/build/learning_cv/install.log --single-version-externally-managed
+[4.101s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_cv' for CMake module files
+[4.102s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_cv' for CMake config files
+[4.103s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_cv/lib'
+[4.104s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_cv/bin'
+[4.104s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_cv/lib/pkgconfig/learning_cv.pc'
+[4.105s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_cv/lib/python3.10/site-packages'
+[4.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_cv', 'pythonpath')
+[4.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_cv/share/learning_cv/hook/pythonpath.dsv'
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_cv/share/learning_cv/hook/pythonpath.sh'
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_cv/bin'
+[4.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_cv)
+[4.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_cv/share/learning_cv/package.dsv'
+[4.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_cv/share/learning_cv/package.sh'
+[4.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_cv/share/colcon-core/packages/learning_cv)
+[4.180s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_cv' finished with '0'
+[4.180s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_gazebo'
+[4.180s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_gazebo' with build type 'ament_python'
+[4.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_gazebo', 'ament_prefix_path')
+[4.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_gazebo/share/learning_gazebo/hook/ament_prefix_path.dsv'
+[4.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_gazebo/share/learning_gazebo/hook/ament_prefix_path.sh'
+[4.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.837s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_gazebo'
+[4.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_gazebo': PYTHONPATH=/home/holic/dev_ws/build/learning_gazebo/prefix_override:/home/holic/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_gazebo build --build-base /home/holic/dev_ws/build/learning_gazebo/build install --record /home/holic/dev_ws/build/learning_gazebo/install.log --single-version-externally-managed
+[6.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_gazebo' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_gazebo/prefix_override:/home/holic/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_gazebo build --build-base /home/holic/dev_ws/build/learning_gazebo/build install --record /home/holic/dev_ws/build/learning_gazebo/install.log --single-version-externally-managed
+[6.126s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_gazebo' for CMake module files
+[6.127s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_gazebo' for CMake config files
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_gazebo/lib'
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_gazebo/bin'
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_gazebo/lib/pkgconfig/learning_gazebo.pc'
+[6.129s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_gazebo/lib/python3.10/site-packages'
+[6.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_gazebo', 'pythonpath')
+[6.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_gazebo/share/learning_gazebo/hook/pythonpath.dsv'
+[6.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_gazebo/share/learning_gazebo/hook/pythonpath.sh'
+[6.158s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_gazebo/bin'
+[6.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_gazebo)
+[6.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_gazebo/share/learning_gazebo/package.dsv'
+[6.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_gazebo/share/learning_gazebo/package.sh'
+[6.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_gazebo/share/colcon-core/packages/learning_gazebo)
+[6.183s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_gazebo' finished with '0'
+[6.183s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_interface'
+[6.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_interface' with build type 'ament_cmake'
+[6.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_interface'
+[6.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_interface -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_interface
+[12.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_interface -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_interface
+[12.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_interface -- -j4 -l4
+[29.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_interface -- -j4 -l4
+[29.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_interface
+[29.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_interface)
+[29.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_interface
+[29.924s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface' for CMake module files
+[29.926s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface' for CMake config files
+[29.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'cmake_prefix_path')
+[29.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.dsv'
+[29.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.sh'
+[29.970s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/lib'
+[29.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'ld_library_path_lib')
+[30.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.dsv'
+[30.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.sh'
+[30.008s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/bin'
+[30.008s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/lib/pkgconfig/learning_interface.pc'
+[30.009s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/lib/python3.10/site-packages'
+[30.010s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/bin'
+[30.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_interface/share/learning_interface/package.dsv'
+[30.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_interface/share/learning_interface/package.sh'
+[30.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_interface/share/colcon-core/packages/learning_interface)
+[30.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_interface)
+[30.570s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface' for CMake module files
+[30.571s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface' for CMake config files
+[30.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'cmake_prefix_path')
+[30.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.dsv'
+[30.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_interface/share/learning_interface/hook/cmake_prefix_path.sh'
+[30.597s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/lib'
+[30.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_interface', 'ld_library_path_lib')
+[30.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.dsv'
+[30.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_interface/share/learning_interface/hook/ld_library_path_lib.sh'
+[30.633s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/bin'
+[30.634s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/lib/pkgconfig/learning_interface.pc'
+[30.634s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/lib/python3.10/site-packages'
+[30.635s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_interface/bin'
+[30.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_interface/share/learning_interface/package.dsv'
+[30.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_interface/share/learning_interface/package.sh'
+[30.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_interface/share/colcon-core/packages/learning_interface)
+[30.668s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_interface' finished with '0'
+[30.668s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_launch'
+[30.668s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_launch' with build type 'ament_python'
+[30.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_launch', 'ament_prefix_path')
+[30.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_launch/share/learning_launch/hook/ament_prefix_path.dsv'
+[30.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_launch/share/learning_launch/hook/ament_prefix_path.sh'
+[30.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.306s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_launch'
+[31.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_launch': PYTHONPATH=/home/holic/dev_ws/build/learning_launch/prefix_override:/home/holic/dev_ws/install/learning_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_launch build --build-base /home/holic/dev_ws/build/learning_launch/build install --record /home/holic/dev_ws/build/learning_launch/install.log --single-version-externally-managed
+[32.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_launch' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_launch/prefix_override:/home/holic/dev_ws/install/learning_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_launch build --build-base /home/holic/dev_ws/build/learning_launch/build install --record /home/holic/dev_ws/build/learning_launch/install.log --single-version-externally-managed
+[32.615s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_launch' for CMake module files
+[32.618s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_launch' for CMake config files
+[32.620s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_launch/lib'
+[32.620s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_launch/bin'
+[32.621s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_launch/lib/pkgconfig/learning_launch.pc'
+[32.621s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_launch/lib/python3.10/site-packages'
+[32.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_launch', 'pythonpath')
+[32.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_launch/share/learning_launch/hook/pythonpath.dsv'
+[32.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_launch/share/learning_launch/hook/pythonpath.sh'
+[32.656s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_launch/bin'
+[32.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_launch)
+[32.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_launch/share/learning_launch/package.dsv'
+[32.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_launch/share/learning_launch/package.sh'
+[32.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_launch/share/colcon-core/packages/learning_launch)
+[32.693s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_launch' finished with '0'
+[32.693s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node'
+[32.694s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_node' with build type 'ament_python'
+[32.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'ament_prefix_path')
+[32.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_node/share/learning_node/hook/ament_prefix_path.dsv'
+[32.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_node/share/learning_node/hook/ament_prefix_path.sh'
+[32.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.365s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_node'
+[33.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_node': PYTHONPATH=/home/holic/dev_ws/build/learning_node/prefix_override:/home/holic/dev_ws/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/holic/dev_ws/build/learning_node/build install --record /home/holic/dev_ws/build/learning_node/install.log --single-version-externally-managed
+[34.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_node' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_node/prefix_override:/home/holic/dev_ws/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/holic/dev_ws/build/learning_node/build install --record /home/holic/dev_ws/build/learning_node/install.log --single-version-externally-managed
+[34.657s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node' for CMake module files
+[34.658s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node' for CMake config files
+[34.659s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node/lib'
+[34.659s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node/bin'
+[34.659s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node/lib/pkgconfig/learning_node.pc'
+[34.660s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node/lib/python3.10/site-packages'
+[34.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'pythonpath')
+[34.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_node/share/learning_node/hook/pythonpath.dsv'
+[34.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_node/share/learning_node/hook/pythonpath.sh'
+[34.686s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node/bin'
+[34.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node)
+[34.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_node/share/learning_node/package.dsv'
+[34.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_node/share/learning_node/package.sh'
+[34.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_node/share/colcon-core/packages/learning_node)
+[34.711s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node' finished with '0'
+[34.711s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node_cpp'
+[34.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_node_cpp' with build type 'ament_cmake'
+[34.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_node_cpp'
+[34.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_node_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_node_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_node_cpp
+[39.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_node_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_node_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_node_cpp
+[39.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_node_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_node_cpp -- -j4 -l4
+[47.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_node_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_node_cpp -- -j4 -l4
+[47.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_node_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_node_cpp
+[47.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node_cpp)
+[47.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_node_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_node_cpp
+[47.743s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp' for CMake module files
+[47.744s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp' for CMake config files
+[47.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node_cpp', 'cmake_prefix_path')
+[47.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_node_cpp/share/learning_node_cpp/hook/cmake_prefix_path.dsv'
+[47.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_node_cpp/share/learning_node_cpp/hook/cmake_prefix_path.sh'
+[47.778s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/lib'
+[47.779s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/bin'
+[47.779s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/lib/pkgconfig/learning_node_cpp.pc'
+[47.779s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/lib/python3.10/site-packages'
+[47.780s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/bin'
+[47.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_node_cpp/share/learning_node_cpp/package.dsv'
+[47.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_node_cpp/share/learning_node_cpp/package.sh'
+[47.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_node_cpp/share/colcon-core/packages/learning_node_cpp)
+[47.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node_cpp)
+[47.939s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp' for CMake module files
+[47.940s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp' for CMake config files
+[47.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node_cpp', 'cmake_prefix_path')
+[47.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_node_cpp/share/learning_node_cpp/hook/cmake_prefix_path.dsv'
+[47.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_node_cpp/share/learning_node_cpp/hook/cmake_prefix_path.sh'
+[47.979s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/lib'
+[47.979s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/bin'
+[47.979s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/lib/pkgconfig/learning_node_cpp.pc'
+[47.980s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/lib/python3.10/site-packages'
+[47.981s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_node_cpp/bin'
+[48.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_node_cpp/share/learning_node_cpp/package.dsv'
+[48.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_node_cpp/share/learning_node_cpp/package.sh'
+[48.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_node_cpp/share/colcon-core/packages/learning_node_cpp)
+[48.015s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node_cpp' finished with '0'
+[48.015s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_parameter'
+[48.016s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter' with build type 'ament_python'
+[48.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_parameter', 'ament_prefix_path')
+[48.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_parameter/share/learning_parameter/hook/ament_prefix_path.dsv'
+[48.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_parameter/share/learning_parameter/hook/ament_prefix_path.sh'
+[48.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.753s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter'
+[48.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[49.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter': PYTHONPATH=/home/holic/dev_ws/build/learning_parameter/prefix_override:/home/holic/dev_ws/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/holic/dev_ws/build/learning_parameter/build install --record /home/holic/dev_ws/build/learning_parameter/install.log --single-version-externally-managed
+[50.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_parameter/prefix_override:/home/holic/dev_ws/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/holic/dev_ws/build/learning_parameter/build install --record /home/holic/dev_ws/build/learning_parameter/install.log --single-version-externally-managed
+[50.060s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter' for CMake module files
+[50.062s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter' for CMake config files
+[50.063s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter/lib'
+[50.063s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter/bin'
+[50.063s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter/lib/pkgconfig/learning_parameter.pc'
+[50.064s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter/lib/python3.10/site-packages'
+[50.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_parameter', 'pythonpath')
+[50.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_parameter/share/learning_parameter/hook/pythonpath.dsv'
+[50.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_parameter/share/learning_parameter/hook/pythonpath.sh'
+[50.095s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter/bin'
+[50.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_parameter)
+[50.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_parameter/share/learning_parameter/package.dsv'
+[50.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_parameter/share/learning_parameter/package.sh'
+[50.122s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_parameter/share/colcon-core/packages/learning_parameter)
+[50.122s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_parameter' finished with '0'
+[50.122s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_parameter_cpp'
+[50.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter_cpp' with build type 'ament_cmake'
+[50.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter_cpp'
+[50.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[50.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_parameter_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_parameter_cpp
+[54.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_parameter_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_parameter_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_parameter_cpp
+[54.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_parameter_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_parameter_cpp -- -j4 -l4
+[61.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_parameter_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_parameter_cpp -- -j4 -l4
+[61.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_parameter_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_parameter_cpp
+[61.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_parameter_cpp)
+[61.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_parameter_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_parameter_cpp
+[61.329s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp' for CMake module files
+[61.330s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp' for CMake config files
+[61.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_parameter_cpp', 'cmake_prefix_path')
+[61.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_parameter_cpp/share/learning_parameter_cpp/hook/cmake_prefix_path.dsv'
+[61.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_parameter_cpp/share/learning_parameter_cpp/hook/cmake_prefix_path.sh'
+[61.396s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/lib'
+[61.396s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/bin'
+[61.397s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/lib/pkgconfig/learning_parameter_cpp.pc'
+[61.398s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/lib/python3.10/site-packages'
+[61.399s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/bin'
+[61.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_parameter_cpp/share/learning_parameter_cpp/package.dsv'
+[61.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_parameter_cpp/share/learning_parameter_cpp/package.sh'
+[61.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_parameter_cpp/share/colcon-core/packages/learning_parameter_cpp)
+[61.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_parameter_cpp)
+[61.587s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp' for CMake module files
+[61.588s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp' for CMake config files
+[61.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_parameter_cpp', 'cmake_prefix_path')
+[61.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_parameter_cpp/share/learning_parameter_cpp/hook/cmake_prefix_path.dsv'
+[61.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_parameter_cpp/share/learning_parameter_cpp/hook/cmake_prefix_path.sh'
+[61.624s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/lib'
+[61.624s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/bin'
+[61.625s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/lib/pkgconfig/learning_parameter_cpp.pc'
+[61.625s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/lib/python3.10/site-packages'
+[61.626s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_parameter_cpp/bin'
+[61.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_parameter_cpp/share/learning_parameter_cpp/package.dsv'
+[61.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_parameter_cpp/share/learning_parameter_cpp/package.sh'
+[61.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_parameter_cpp/share/colcon-core/packages/learning_parameter_cpp)
+[61.668s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_parameter_cpp' finished with '0'
+[61.668s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_c'
+[61.668s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_c' with build type 'ament_cmake'
+[61.668s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_c'
+[61.738s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[61.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_pkg_c
+[63.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_pkg_c
+[63.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_pkg_c -- -j4 -l4
+[64.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_pkg_c -- -j4 -l4
+[64.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_pkg_c
+[64.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_c)
+[64.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_pkg_c
+[64.158s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c' for CMake module files
+[64.160s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c' for CMake config files
+[64.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_c', 'cmake_prefix_path')
+[64.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.dsv'
+[64.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.sh'
+[64.213s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c/bin'
+[64.213s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c/lib/pkgconfig/learning_pkg_c.pc'
+[64.214s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c/lib/python3.10/site-packages'
+[64.214s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c/bin'
+[64.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/package.dsv'
+[64.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/package.sh'
+[64.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_pkg_c/share/colcon-core/packages/learning_pkg_c)
+[64.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_c)
+[64.427s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c' for CMake module files
+[64.429s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c' for CMake config files
+[64.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_c', 'cmake_prefix_path')
+[64.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.dsv'
+[64.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.sh'
+[64.507s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c/bin'
+[64.508s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c/lib/pkgconfig/learning_pkg_c.pc'
+[64.509s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c/lib/python3.10/site-packages'
+[64.510s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_c/bin'
+[64.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/package.dsv'
+[64.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/package.sh'
+[64.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_pkg_c/share/colcon-core/packages/learning_pkg_c)
+[64.579s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_c' finished with '0'
+[64.579s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_python'
+[64.579s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_python' with build type 'ament_python'
+[64.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_python', 'ament_prefix_path')
+[64.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.dsv'
+[64.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.sh'
+[64.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[65.210s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_python'
+[65.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[65.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_python': PYTHONPATH=/home/holic/dev_ws/build/learning_pkg_python/prefix_override:/home/holic/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_pkg_python build --build-base /home/holic/dev_ws/build/learning_pkg_python/build install --record /home/holic/dev_ws/build/learning_pkg_python/install.log --single-version-externally-managed
+[66.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_pkg_python' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_pkg_python/prefix_override:/home/holic/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_pkg_python build --build-base /home/holic/dev_ws/build/learning_pkg_python/build install --record /home/holic/dev_ws/build/learning_pkg_python/install.log --single-version-externally-managed
+[66.553s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_python' for CMake module files
+[66.554s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_python' for CMake config files
+[66.555s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_python/lib'
+[66.555s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_python/bin'
+[66.555s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_python/lib/pkgconfig/learning_pkg_python.pc'
+[66.556s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages'
+[66.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_python', 'pythonpath')
+[66.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.dsv'
+[66.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.sh'
+[66.586s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_pkg_python/bin'
+[66.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_python)
+[66.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_pkg_python/share/learning_pkg_python/package.dsv'
+[66.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_pkg_python/share/learning_pkg_python/package.sh'
+[66.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_pkg_python/share/colcon-core/packages/learning_pkg_python)
+[66.614s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_pkg_python' finished with '0'
+[66.614s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_qos'
+[66.614s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_qos' with build type 'ament_python'
+[66.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_qos', 'ament_prefix_path')
+[66.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_qos/share/learning_qos/hook/ament_prefix_path.dsv'
+[66.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_qos/share/learning_qos/hook/ament_prefix_path.sh'
+[66.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[67.242s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_qos'
+[67.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[67.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_qos': PYTHONPATH=/home/holic/dev_ws/build/learning_qos/prefix_override:/home/holic/dev_ws/install/learning_qos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_qos build --build-base /home/holic/dev_ws/build/learning_qos/build install --record /home/holic/dev_ws/build/learning_qos/install.log --single-version-externally-managed
+[68.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_qos' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_qos/prefix_override:/home/holic/dev_ws/install/learning_qos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_qos build --build-base /home/holic/dev_ws/build/learning_qos/build install --record /home/holic/dev_ws/build/learning_qos/install.log --single-version-externally-managed
+[68.698s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_qos' for CMake module files
+[68.699s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_qos' for CMake config files
+[68.700s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_qos/lib'
+[68.700s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_qos/bin'
+[68.700s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_qos/lib/pkgconfig/learning_qos.pc'
+[68.701s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_qos/lib/python3.10/site-packages'
+[68.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_qos', 'pythonpath')
+[68.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_qos/share/learning_qos/hook/pythonpath.dsv'
+[68.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_qos/share/learning_qos/hook/pythonpath.sh'
+[68.738s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_qos/bin'
+[68.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_qos)
+[68.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_qos/share/learning_qos/package.dsv'
+[68.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_qos/share/learning_qos/package.sh'
+[68.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_qos/share/colcon-core/packages/learning_qos)
+[68.816s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_qos' finished with '0'
+[68.817s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_tf'
+[68.817s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_tf' with build type 'ament_python'
+[68.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf', 'ament_prefix_path')
+[68.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_tf/share/learning_tf/hook/ament_prefix_path.dsv'
+[68.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_tf/share/learning_tf/hook/ament_prefix_path.sh'
+[68.922s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[69.431s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_tf'
+[69.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[70.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_tf': PYTHONPATH=/home/holic/dev_ws/build/learning_tf/prefix_override:/home/holic/dev_ws/install/learning_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_tf build --build-base /home/holic/dev_ws/build/learning_tf/build install --record /home/holic/dev_ws/build/learning_tf/install.log --single-version-externally-managed
+[70.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_tf' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_tf/prefix_override:/home/holic/dev_ws/install/learning_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_tf build --build-base /home/holic/dev_ws/build/learning_tf/build install --record /home/holic/dev_ws/build/learning_tf/install.log --single-version-externally-managed
+[70.863s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_tf' for CMake module files
+[70.864s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_tf' for CMake config files
+[70.866s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_tf/lib'
+[70.866s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_tf/bin'
+[70.866s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_tf/lib/pkgconfig/learning_tf.pc'
+[70.866s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_tf/lib/python3.10/site-packages'
+[70.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf', 'pythonpath')
+[70.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_tf/share/learning_tf/hook/pythonpath.dsv'
+[70.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_tf/share/learning_tf/hook/pythonpath.sh'
+[70.907s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_tf/bin'
+[70.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf)
+[70.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_tf/share/learning_tf/package.dsv'
+[70.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_tf/share/learning_tf/package.sh'
+[70.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_tf/share/colcon-core/packages/learning_tf)
+[70.943s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_tf' finished with '0'
+[70.943s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_topic_cpp'
+[70.943s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_topic_cpp' with build type 'ament_cmake'
+[70.944s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_topic_cpp'
+[70.986s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[71.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_topic_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_topic_cpp
+[74.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_topic_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_topic_cpp
+[74.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_topic_cpp -- -j4 -l4
+[97.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/holic/dev_ws/build/learning_topic_cpp -- -j4 -l4
+[97.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_topic_cpp
+[97.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_topic_cpp)
+[97.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/holic/dev_ws/build/learning_topic_cpp
+[97.705s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp' for CMake module files
+[97.706s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp' for CMake config files
+[97.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_topic_cpp', 'cmake_prefix_path')
+[97.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_topic_cpp/share/learning_topic_cpp/hook/cmake_prefix_path.dsv'
+[97.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_topic_cpp/share/learning_topic_cpp/hook/cmake_prefix_path.sh'
+[97.748s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/lib'
+[97.748s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/bin'
+[97.748s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/lib/pkgconfig/learning_topic_cpp.pc'
+[97.749s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/lib/python3.10/site-packages'
+[97.750s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/bin'
+[97.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_topic_cpp/share/learning_topic_cpp/package.dsv'
+[97.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_topic_cpp/share/learning_topic_cpp/package.sh'
+[97.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_topic_cpp/share/colcon-core/packages/learning_topic_cpp)
+[97.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_topic_cpp)
+[97.954s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp' for CMake module files
+[97.955s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp' for CMake config files
+[97.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_topic_cpp', 'cmake_prefix_path')
+[97.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_topic_cpp/share/learning_topic_cpp/hook/cmake_prefix_path.dsv'
+[97.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_topic_cpp/share/learning_topic_cpp/hook/cmake_prefix_path.sh'
+[97.990s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/lib'
+[97.991s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/bin'
+[97.991s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/lib/pkgconfig/learning_topic_cpp.pc'
+[97.991s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/lib/python3.10/site-packages'
+[97.991s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic_cpp/bin'
+[98.014s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_topic_cpp/share/learning_topic_cpp/package.dsv'
+[98.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_topic_cpp/share/learning_topic_cpp/package.sh'
+[98.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_topic_cpp/share/colcon-core/packages/learning_topic_cpp)
+[98.017s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_topic_cpp' finished with '0'
+[98.017s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_urdf'
+[98.017s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_urdf' with build type 'ament_python'
+[98.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_urdf', 'ament_prefix_path')
+[98.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_urdf/share/learning_urdf/hook/ament_prefix_path.dsv'
+[98.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_urdf/share/learning_urdf/hook/ament_prefix_path.sh'
+[98.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[98.853s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_urdf'
+[98.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[99.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_urdf': PYTHONPATH=/home/holic/dev_ws/build/learning_urdf/prefix_override:/home/holic/dev_ws/install/learning_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_urdf build --build-base /home/holic/dev_ws/build/learning_urdf/build install --record /home/holic/dev_ws/build/learning_urdf/install.log --single-version-externally-managed
+[100.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_urdf' returned '0': PYTHONPATH=/home/holic/dev_ws/build/learning_urdf/prefix_override:/home/holic/dev_ws/install/learning_urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_urdf build --build-base /home/holic/dev_ws/build/learning_urdf/build install --record /home/holic/dev_ws/build/learning_urdf/install.log --single-version-externally-managed
+[100.686s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_urdf' for CMake module files
+[100.687s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_urdf' for CMake config files
+[100.688s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_urdf/lib'
+[100.689s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_urdf/bin'
+[100.689s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_urdf/lib/pkgconfig/learning_urdf.pc'
+[100.690s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_urdf/lib/python3.10/site-packages'
+[100.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_urdf', 'pythonpath')
+[100.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_urdf/share/learning_urdf/hook/pythonpath.dsv'
+[100.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_urdf/share/learning_urdf/hook/pythonpath.sh'
+[100.736s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_urdf/bin'
+[100.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_urdf)
+[100.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_urdf/share/learning_urdf/package.dsv'
+[100.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_urdf/share/learning_urdf/package.sh'
+[100.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_urdf/share/colcon-core/packages/learning_urdf)
+[100.778s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_urdf' finished with '0'
+[100.778s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_action'
+[100.778s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_action' with build type 'ament_python'
+[100.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_action', 'ament_prefix_path')
+[100.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_action/share/learning_action/hook/ament_prefix_path.dsv'
+[100.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_action/share/learning_action/hook/ament_prefix_path.sh'
+[100.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[101.606s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_action'
+[101.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[102.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_action': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/build/learning_action/prefix_override:/home/holic/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_action build --build-base /home/holic/dev_ws/build/learning_action/build install --record /home/holic/dev_ws/build/learning_action/install.log --single-version-externally-managed
+[103.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_action' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/build/learning_action/prefix_override:/home/holic/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_action build --build-base /home/holic/dev_ws/build/learning_action/build install --record /home/holic/dev_ws/build/learning_action/install.log --single-version-externally-managed
+[103.422s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action' for CMake module files
+[103.423s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action' for CMake config files
+[103.424s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action/lib'
+[103.424s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action/bin'
+[103.425s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action/lib/pkgconfig/learning_action.pc'
+[103.425s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action/lib/python3.10/site-packages'
+[103.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_action', 'pythonpath')
+[103.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_action/share/learning_action/hook/pythonpath.dsv'
+[103.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_action/share/learning_action/hook/pythonpath.sh'
+[103.462s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action/bin'
+[103.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_action)
+[103.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_action/share/learning_action/package.dsv'
+[103.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_action/share/learning_action/package.sh'
+[103.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_action/share/colcon-core/packages/learning_action)
+[103.500s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_action' finished with '0'
+[103.500s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_action_cpp'
+[103.500s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_action_cpp' with build type 'ament_cmake'
+[103.501s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_action_cpp'
+[103.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[103.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_action_cpp': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_action_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_action_cpp
+[108.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_action_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_action_cpp
+[108.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_action_cpp': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/holic/dev_ws/build/learning_action_cpp -- -j4 -l4
+[119.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/holic/dev_ws/build/learning_action_cpp -- -j4 -l4
+[119.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_action_cpp': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/holic/dev_ws/build/learning_action_cpp
+[119.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_action_cpp)
+[119.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/holic/dev_ws/build/learning_action_cpp
+[119.342s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp' for CMake module files
+[119.343s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp' for CMake config files
+[119.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_action_cpp', 'cmake_prefix_path')
+[119.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_action_cpp/share/learning_action_cpp/hook/cmake_prefix_path.dsv'
+[119.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_action_cpp/share/learning_action_cpp/hook/cmake_prefix_path.sh'
+[119.390s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/lib'
+[119.390s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/bin'
+[119.390s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/lib/pkgconfig/learning_action_cpp.pc'
+[119.391s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/lib/python3.10/site-packages'
+[119.391s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/bin'
+[119.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_action_cpp/share/learning_action_cpp/package.dsv'
+[119.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_action_cpp/share/learning_action_cpp/package.sh'
+[119.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_action_cpp/share/colcon-core/packages/learning_action_cpp)
+[119.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_action_cpp)
+[119.618s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp' for CMake module files
+[119.619s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp' for CMake config files
+[119.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_action_cpp', 'cmake_prefix_path')
+[119.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_action_cpp/share/learning_action_cpp/hook/cmake_prefix_path.dsv'
+[119.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_action_cpp/share/learning_action_cpp/hook/cmake_prefix_path.sh'
+[119.662s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/lib'
+[119.662s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/bin'
+[119.662s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/lib/pkgconfig/learning_action_cpp.pc'
+[119.663s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/lib/python3.10/site-packages'
+[119.663s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_action_cpp/bin'
+[119.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_action_cpp/share/learning_action_cpp/package.dsv'
+[119.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_action_cpp/share/learning_action_cpp/package.sh'
+[119.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_action_cpp/share/colcon-core/packages/learning_action_cpp)
+[119.704s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_action_cpp' finished with '0'
+[119.704s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_service'
+[119.704s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_service' with build type 'ament_python'
+[119.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_service', 'ament_prefix_path')
+[119.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_service/share/learning_service/hook/ament_prefix_path.dsv'
+[119.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_service/share/learning_service/hook/ament_prefix_path.sh'
+[119.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[120.528s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_service'
+[120.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[121.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_service': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/build/learning_service/prefix_override:/home/holic/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_service build --build-base /home/holic/dev_ws/build/learning_service/build install --record /home/holic/dev_ws/build/learning_service/install.log --single-version-externally-managed
+[122.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_service' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/build/learning_service/prefix_override:/home/holic/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_service build --build-base /home/holic/dev_ws/build/learning_service/build install --record /home/holic/dev_ws/build/learning_service/install.log --single-version-externally-managed
+[122.288s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service' for CMake module files
+[122.290s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service' for CMake config files
+[122.291s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service/lib'
+[122.291s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service/bin'
+[122.291s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service/lib/pkgconfig/learning_service.pc'
+[122.292s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service/lib/python3.10/site-packages'
+[122.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_service', 'pythonpath')
+[122.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_service/share/learning_service/hook/pythonpath.dsv'
+[122.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_service/share/learning_service/hook/pythonpath.sh'
+[122.323s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service/bin'
+[122.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_service)
+[122.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_service/share/learning_service/package.dsv'
+[122.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_service/share/learning_service/package.sh'
+[122.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_service/share/colcon-core/packages/learning_service)
+[122.351s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_service' finished with '0'
+[122.351s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_service_cpp'
+[122.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_service_cpp' with build type 'ament_cmake'
+[122.352s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_service_cpp'
+[122.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[122.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_service_cpp': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_service_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_service_cpp
+[126.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_service_cpp' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/holic/dev_ws/src/ros2_21_tutorials/learning_service_cpp -DCMAKE_INSTALL_PREFIX=/home/holic/dev_ws/install/learning_service_cpp
+[126.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_service_cpp': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/holic/dev_ws/build/learning_service_cpp -- -j4 -l4
+[134.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_service_cpp' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/holic/dev_ws/build/learning_service_cpp -- -j4 -l4
+[134.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/build/learning_service_cpp': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/holic/dev_ws/build/learning_service_cpp
+[134.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_service_cpp)
+[134.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/build/learning_service_cpp' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/holic/dev_ws/build/learning_service_cpp
+[134.840s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp' for CMake module files
+[134.841s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp' for CMake config files
+[134.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_service_cpp', 'cmake_prefix_path')
+[134.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/hook/cmake_prefix_path.dsv'
+[134.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/hook/cmake_prefix_path.sh'
+[134.891s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/lib'
+[134.891s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/bin'
+[134.891s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/lib/pkgconfig/learning_service_cpp.pc'
+[134.892s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/lib/python3.10/site-packages'
+[134.892s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/bin'
+[134.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/package.dsv'
+[134.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/package.sh'
+[134.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_service_cpp/share/colcon-core/packages/learning_service_cpp)
+[135.040s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_service_cpp)
+[135.074s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp' for CMake module files
+[135.075s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp' for CMake config files
+[135.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_service_cpp', 'cmake_prefix_path')
+[135.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/hook/cmake_prefix_path.dsv'
+[135.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/hook/cmake_prefix_path.sh'
+[135.101s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/lib'
+[135.102s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/bin'
+[135.102s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/lib/pkgconfig/learning_service_cpp.pc'
+[135.102s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/lib/python3.10/site-packages'
+[135.102s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_service_cpp/bin'
+[135.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/package.dsv'
+[135.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/package.sh'
+[135.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_service_cpp/share/colcon-core/packages/learning_service_cpp)
+[135.139s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_service_cpp' finished with '0'
+[135.140s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_topic'
+[135.140s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_topic' with build type 'ament_python'
+[135.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_topic', 'ament_prefix_path')
+[135.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_topic/share/learning_topic/hook/ament_prefix_path.dsv'
+[135.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_topic/share/learning_topic/hook/ament_prefix_path.sh'
+[135.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[135.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_topic'
+[135.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[136.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_topic': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/build/learning_topic/prefix_override:/home/holic/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/holic/dev_ws/build/learning_topic/build install --record /home/holic/dev_ws/build/learning_topic/install.log --single-version-externally-managed
+[137.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/holic/dev_ws/src/ros2_21_tutorials/learning_topic' returned '0': AMENT_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/holic/dev_ws/install/learning_interface LD_LIBRARY_PATH=/home/holic/dev_ws/install/learning_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/holic/dev_ws/build/learning_topic/prefix_override:/home/holic/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/holic/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/holic/dev_ws/build/learning_topic/build install --record /home/holic/dev_ws/build/learning_topic/install.log --single-version-externally-managed
+[137.415s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic' for CMake module files
+[137.418s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic' for CMake config files
+[137.419s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic/lib'
+[137.419s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic/bin'
+[137.419s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic/lib/pkgconfig/learning_topic.pc'
+[137.420s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic/lib/python3.10/site-packages'
+[137.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_topic', 'pythonpath')
+[137.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/holic/dev_ws/install/learning_topic/share/learning_topic/hook/pythonpath.dsv'
+[137.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/holic/dev_ws/install/learning_topic/share/learning_topic/hook/pythonpath.sh'
+[137.457s] Level 1:colcon.colcon_core.environment:checking '/home/holic/dev_ws/install/learning_topic/bin'
+[137.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_topic)
+[137.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/holic/dev_ws/install/learning_topic/share/learning_topic/package.dsv'
+[137.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/holic/dev_ws/install/learning_topic/share/learning_topic/package.sh'
+[137.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/holic/dev_ws/install/learning_topic/share/colcon-core/packages/learning_topic)
+[137.492s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_topic' finished with '0'
+[137.492s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[137.493s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[137.493s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[137.494s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[137.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/holic/dev_ws/install/local_setup.sh'
+[137.540s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/holic/dev_ws/install/_local_setup_util_sh.py'
+[137.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/holic/dev_ws/install/setup.sh'

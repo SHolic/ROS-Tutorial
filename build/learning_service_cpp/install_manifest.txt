@@ -1,0 +1,17 @@
+/home/holic/dev_ws/install/learning_service_cpp/lib/learning_service_cpp/service_adder_server
+/home/holic/dev_ws/install/learning_service_cpp/lib/learning_service_cpp/service_adder_client
+/home/holic/dev_ws/install/learning_service_cpp/share/ament_index/resource_index/package_run_dependencies/learning_service_cpp
+/home/holic/dev_ws/install/learning_service_cpp/share/ament_index/resource_index/parent_prefix_path/learning_service_cpp
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/environment/ament_prefix_path.sh
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/environment/ament_prefix_path.dsv
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/environment/path.sh
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/environment/path.dsv
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/local_setup.bash
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/local_setup.sh
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/local_setup.zsh
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/local_setup.dsv
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/package.dsv
+/home/holic/dev_ws/install/learning_service_cpp/share/ament_index/resource_index/packages/learning_service_cpp
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/cmake/learning_service_cppConfig.cmake
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/cmake/learning_service_cppConfig-version.cmake
+/home/holic/dev_ws/install/learning_service_cpp/share/learning_service_cpp/package.xml

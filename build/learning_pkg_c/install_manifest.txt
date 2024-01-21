@@ -1,0 +1,15 @@
+/home/holic/dev_ws/install/learning_pkg_c/share/ament_index/resource_index/package_run_dependencies/learning_pkg_c
+/home/holic/dev_ws/install/learning_pkg_c/share/ament_index/resource_index/parent_prefix_path/learning_pkg_c
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.sh
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.dsv
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/environment/path.sh
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/environment/path.dsv
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.bash
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.sh
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.zsh
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.dsv
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/package.dsv
+/home/holic/dev_ws/install/learning_pkg_c/share/ament_index/resource_index/packages/learning_pkg_c
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig.cmake
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig-version.cmake
+/home/holic/dev_ws/install/learning_pkg_c/share/learning_pkg_c/package.xml
